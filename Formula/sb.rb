@@ -1,27 +1,27 @@
 class Sb < Formula
   desc "TUI for managing terminal sessions in a sidebar"
   homepage "https://github.com/ftl-tools/sidebar_tui"
-  version "0.1.12"
+  version "0.1.13"
   license "MIT"
 
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/ftl-tools/sidebar_tui/releases/download/v0.1.12/sb-v0.1.12-aarch64-apple-darwin.tar.gz"
-      sha256 "cf26640870afb161693585369bb05fff8f06fa7030edaaa0a3b330c1502b3180"
+      url "https://github.com/ftl-tools/sidebar_tui/releases/download/v0.1.13/sb-v0.1.13-aarch64-apple-darwin.tar.gz"
+      sha256 "26eee3a40e8b80b42b430522b0b6e12324deb02407e37f5f27c268772d417728"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ftl-tools/sidebar_tui/releases/download/v0.1.12/sb-v0.1.12-x86_64-apple-darwin.tar.gz"
-      sha256 "071f7230b777221b8dbfe929c559bafc2a230ad0b9b8a9f29c7a3aee54524c2e"
+      url "https://github.com/ftl-tools/sidebar_tui/releases/download/v0.1.13/sb-v0.1.13-x86_64-apple-darwin.tar.gz"
+      sha256 "f7778109defd57c281e728e034b726c14ff1501649fb9cfdc79c8f9dcc890808"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/ftl-tools/sidebar_tui/releases/download/v0.1.12/sb-v0.1.12-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "9a169e72dfa1f28b86b5d140bcc7c61027bf8bc4afe1b6a3ce8e4277160e51cc"
+      url "https://github.com/ftl-tools/sidebar_tui/releases/download/v0.1.13/sb-v0.1.13-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "13a6f2bfd6890509b671885e86e5f32f1319b9459bdd584249b33949f60df0da"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ftl-tools/sidebar_tui/releases/download/v0.1.12/sb-v0.1.12-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "c715da68a6097d198c633c7ac4db97cda3e3995fb36584ff0ca7f2c886592956"
+      url "https://github.com/ftl-tools/sidebar_tui/releases/download/v0.1.13/sb-v0.1.13-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "9edba77f38be44abb3860c482a7a118b90469dee9ee7de45b8f7ee60768d076d"
     end
   end
 
